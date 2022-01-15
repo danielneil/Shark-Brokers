@@ -1,2 +1,15 @@
 ---
-# tasks file for yahoo_finance
+# tasks file for sma
+
+- include: dependencies.yml
+
+- name: Installing plugin - check_price.py
+  copy:
+   src: check_price.py
+   dest: /usr/lib64/nagios/plugins/
+   mode: '755'
+   
+- name: Installing command definition - check_price.py
+  copy:
+   src: check_price.cfg
+   dest: /usr/local/nagios/etc/conf.d/
