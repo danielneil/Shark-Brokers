@@ -12,3 +12,7 @@ For more information about Shark, see [here](https://github.com/danielneil/Shark
 
 This is the demo broker - no buying or selling occurs and it is simple used to determine price information.
 
+```
+check_price.py - gets the price of the equity, and compares it with the previous price.
+```
+
