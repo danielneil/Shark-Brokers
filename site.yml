@@ -1,5 +1,5 @@
 ---
-- name: Shark - Installing Shark Plugins
+- name: Shark - Installing Shark Broker Plugins
   hosts: shark_server
   gather_facts: yes
   strategy: free
