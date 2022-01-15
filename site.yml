@@ -1,0 +1,9 @@
+---
+- name: Shark - Installing Shark Plugins
+  hosts: shark_server
+  gather_facts: yes
+  strategy: free
+  become: true
+
+  roles:
+  - yahoo_finance
