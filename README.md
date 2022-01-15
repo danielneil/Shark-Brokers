@@ -1,6 +1,6 @@
 # Shark Brokers
 
-These are ansible roles are the broker plugins  to use with the Shark algorithmic trading platform. 
+These ansible roles are the broker plugins to use with the Shark algorithmic trading platform. 
 
 ## yahoo_finance
 
