@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     ticker = args.ticker
     
-    history_dir = "/shark/historical/"yahoo_finance_data" + "/" + ticker + ".csv"
+    datafile = "/shark/historical/yahoo_finance_data/" + ticker + ".csv"
         
     try:
         f = open(datafile)
