@@ -12,7 +12,7 @@ For more information about Shark, see [here](https://github.com/danielneil/Shark
 
 This is the demo broker.
 
-Buying and selling activity is conducted using a virtualised market.
+Buying and selling occurs using a simulated market. 
 
 ```
 check_price.py - gets the price of the equity, and compares it with the previous price.
