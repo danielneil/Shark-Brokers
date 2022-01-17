@@ -37,8 +37,8 @@ if __name__ == "__main__":
     
     dataFrame = data['Adj Close']
     
-    lastPrice = data['Adj Close'].iloc[-1]
-    nextLastPrice = data['Adj Close'].iloc[-2]
+    lastPrice = data['Adj Close'].iloc[-1].round(decimals=2)
+    nextLastPrice = data['Adj Close'].iloc[-2].round(decimals=2)
        
     if lastPrice >  nextLastPrice:
         print("UP - Price $" + str(lastPrice) + " is above last price $" + str(nextLastPrice))
