@@ -18,3 +18,11 @@ Buying and selling occurs using a simulated market.
 check_price.py - gets the price of the equity, and compares it with the previous price.
 ```
 
+## ig-streaming
+
+Provides connectivity to IG utilising their streaming mechanism.
+
+## ig-rest
+
+Provides connectivity to IG utilising their REST mechanism.
+
