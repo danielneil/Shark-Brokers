@@ -39,7 +39,7 @@ if __name__ == "__main__":
     
     lastPrice = data['Adj Close'].iloc[-1].round(decimals=2)
     nextLastPrice = data['Adj Close'].iloc[-2].round(decimals=2)
-       
+
     if lastPrice >  nextLastPrice:
         print("UP - Price $" + str(lastPrice) + " is above last price $" + str(nextLastPrice))
         sys.exit(OK)
@@ -47,3 +47,5 @@ if __name__ == "__main__":
     elif lastPrice <  nextLastPrice:
         print("DOWN - Price $" + str(lastPrice) + " is below last price $" + str(nextLastPrice))
         sys.exit(CRITICAL)      
+    elif lastPrice == nextLastPrice:
+        print("OK - Price $" + str(lastPrice) + " is equal to last price $" + str(nextLastPrice))
