@@ -8,15 +8,15 @@ These ansible roles are the broker plugins to use with the Shark algorithmic tra
 
 For more information about Shark, see [here](https://github.com/danielneil/Shark).
 
-## yahoo_finance
-
-This is the demo broker.
-
-Buying and selling occurs using a simulated market. 
+### The Shark Brokers API provides the following generic mechanisms across all brokers.
 
 ```
 check_price.py - gets the price of the equity, and compares it with the previous price.
 ```
+
+## yahoo_finance
+
+This is the demo broker - buying and selling occurs using a simulated market. 
 
 ## ig-rest
 
