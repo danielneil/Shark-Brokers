@@ -48,4 +48,4 @@ if __name__ == "__main__":
         print("DOWN - Price $" + str(lastPrice) + " is below last price $" + str(nextLastPrice))
         sys.exit(CRITICAL)      
     elif lastPrice == nextLastPrice:
-        print("OK - Price $" + str(lastPrice) + " is equal to last price $" + str(nextLastPrice))
+        print("EQUAL - Price $" + str(lastPrice) + " is equal to last price $" + str(nextLastPrice))
