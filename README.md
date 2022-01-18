@@ -8,7 +8,7 @@ These ansible roles are the broker plugins to use with the Shark algorithmic tra
 
 For more information about Shark, see [here](https://github.com/danielneil/Shark).
 
-### The Shark Brokers API provides the following generic mechanisms across all brokers.
+The Shark Brokers API provides the following generic mechanisms across all brokers.
 
 ```
 check_price.py - gets the price of the equity, and compares it with the previous price.
