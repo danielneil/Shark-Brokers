@@ -13,7 +13,9 @@ For more information about Shark, see [here](https://github.com/danielneil/Shark
 The Shark Brokers API provides the following generic mechanisms across all brokers.
 
 ```
-check_price.py - gets the price of the equity, and compares it with the previous price.
+get_price.py - gets the price of the equity, and compares it with the previous price.  
+submit_buy_order.py - submits a buy order to the broker for a given instrument. 
+submit_sell_order.py - submits a sell order to the broker for a given instrument.
 ```
 
 ## Brokers
